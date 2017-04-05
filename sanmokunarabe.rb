@@ -46,7 +46,6 @@ if i < 10
 end
 b.to_s
 puts "#{b}"
-
 =begin
   if / (11|22|33|44|55|66|77|88|99)/o =~ b then
     print("そこは選択できません。" "¥n")
@@ -55,10 +54,5 @@ puts "#{b}"
     print("player2 win" "¥n")
   end
 =end
-
-if i = 9 then
- puts(" draw game ")
-end
-
 i = i + 1
 end
